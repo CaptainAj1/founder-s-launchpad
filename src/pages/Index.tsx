@@ -1,14 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import InternwiseNavbar from "@/components/internwise/InternwiseNavbar";
+import InternwiseHero from "@/components/internwise/InternwiseHero";
+import MissionSection from "@/components/internwise/MissionSection";
+import AboutSection from "@/components/internwise/AboutSection";
+import PlatformsSection from "@/components/internwise/PlatformsSection";
+import AudienceSection from "@/components/internwise/AudienceSection";
+import ContactSection from "@/components/internwise/ContactSection";
+import InternwiseFooter from "@/components/internwise/InternwiseFooter";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <>
+    <InternwiseNavbar />
+    <InternwiseHero />
+    <MissionSection />
+    <AboutSection />
+    <PlatformsSection />
+    <AudienceSection />
+    <ContactSection />
+    <InternwiseFooter />
+  </>
+);
 
 export default Index;
