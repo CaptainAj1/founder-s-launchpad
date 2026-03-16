@@ -11,7 +11,7 @@ const audiences = [
       "Browse thousands of internship listings across every sector",
       "Create a profile that gets you seen by top employers",
       "Access roles from SMEs to multinational corporations",
-      "Free to use — always",
+      "Free to use, always",
     ],
     cta: { text: "Find Internships", href: "https://internwise.co.uk", variant: "navy" as const },
     dark: false,
@@ -20,7 +20,7 @@ const audiences = [
     emoji: "🏢",
     label: "For Hiring Teams",
     title: "Employers",
-    desc: "Reach motivated, qualified graduates actively searching for internship opportunities. Post roles, manage applications, and find the right fit — fast.",
+    desc: "Reach motivated, qualified graduates actively searching for internship opportunities. Post roles, manage applications, and find the right fit, fast.",
     points: [
       "Post internship roles in minutes",
       "Access a pool of over 500,000 registered candidates",

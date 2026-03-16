@@ -19,7 +19,7 @@ const PlatformsSection = () => (
           className="bg-navy rounded-2xl p-8 text-white group hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative overflow-hidden"
         >
           <span className="absolute top-4 right-4 bg-coral text-white text-xs font-semibold px-3 py-1 rounded-full">Flagship</span>
-          <span className="text-4xl mb-4 block">🇬🇧</span>
+          <img src="/united-kingdom.png" alt="UK" className="w-10 h-10 mb-4" />
           <h3 className="font-display text-2xl font-bold mb-2">United Kingdom</h3>
           <p className="text-white/60 font-body text-sm mb-4">Our flagship platform connecting UK graduates with internship opportunities across every sector.</p>
           <span className="inline-flex items-center gap-1 text-sky text-sm font-medium font-body">
@@ -34,7 +34,7 @@ const PlatformsSection = () => (
           rel="noopener noreferrer"
           className="bg-white rounded-2xl p-8 group hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
         >
-          <span className="text-4xl mb-4 block">🇪🇺</span>
+          <img src="/european.png" alt="Europe" className="w-10 h-10 mb-4" />
           <h3 className="font-display text-2xl font-bold text-navy mb-2">Europe</h3>
           <p className="text-foreground/60 font-body text-sm mb-4">Expanding across the European market, connecting graduates with cross-border internship opportunities.</p>
           <span className="inline-flex items-center gap-1 text-sky text-sm font-medium font-body">

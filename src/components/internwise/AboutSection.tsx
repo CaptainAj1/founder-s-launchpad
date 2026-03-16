@@ -2,9 +2,9 @@ import { Container, SectionLabel, SectionHeading, DotGrid, BlobDecoration } from
 import { Shield, Globe, GraduationCap, Heart } from "lucide-react";
 
 const values = [
-  { icon: GraduationCap, title: "Graduate-First", body: "Everything we build starts with the graduate experience — making the transition from education to employment as simple and supported as possible." },
-  { icon: Shield, title: "Trusted by Employers", body: "Over 15,000 employers have used Internwise to find early-career talent — trusting our platform to deliver quality candidates efficiently." },
-  { icon: Globe, title: "UK & Europe Focus", body: "We operate where the need is greatest — across the United Kingdom and Europe, with dedicated platforms for each region." },
+  { icon: GraduationCap, title: "Graduate-First", body: "Everything we build starts with the graduate experience, making the transition from education to employment as simple and supported as possible." },
+  { icon: Shield, title: "Trusted by Employers", body: "Over 15,000 employers have used Internwise to find early-career talent, trusting our platform to deliver quality candidates efficiently." },
+  { icon: Globe, title: "UK & Europe Focus", body: "We operate where the need is greatest, across the United Kingdom and Europe, with dedicated platforms for each region." },
   { icon: Heart, title: "Independent & Purpose-Driven", body: "Internwise is an independently owned platform, driven by mission rather than shareholders. We exist to make a difference." },
 ];
 
@@ -20,8 +20,8 @@ const AboutSection = () => (
           <SectionLabel>About Us</SectionLabel>
           <SectionHeading light>An Entrepreneur&apos;s Passion, Built into a Platform</SectionHeading>
           <blockquote className="border-l-4 border-coral pl-6 mt-8 italic text-white/70 font-body">
-            &ldquo;I built Internwise because I saw the gap between what graduates needed and what existed. The recruitment industry was not built for them — so I decided to build something that was.&rdquo;
-            <span className="block mt-3 text-coral not-italic font-semibold text-sm">— Nuno Dhiren, Founder</span>
+            &ldquo;I built Internwise because I saw the gap between what graduates needed and what existed. The recruitment industry was not built for them, so I decided to build something that was.&rdquo;
+            <span className="block mt-3 text-coral not-italic font-semibold text-sm">- Nuno Dhiren, Founder</span>
           </blockquote>
         </div>
         <div className="space-y-4 font-body text-white/70">

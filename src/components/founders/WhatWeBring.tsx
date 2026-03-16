@@ -4,7 +4,7 @@ import { Users, Network, Wrench, Route } from "lucide-react";
 const cards = [
   { icon: Users, title: "Expert Mentorship", desc: "Regular one-to-one sessions with experienced founders and business builders who have navigated the exact challenges you will face.", gradient: "from-navy to-[#2a57b0]" },
   { icon: Network, title: "Industry Network", desc: "Access to a curated network of professionals, potential partners, and like-minded founders across the Internwise ecosystem and beyond.", gradient: "from-sky to-[#2a9cd1]" },
-  { icon: Wrench, title: "Practical Resources", desc: "Tools, templates, frameworks, and research that remove friction and let you focus on what matters — building, validating, and growing.", gradient: "from-coral to-coral-dark" },
+  { icon: Wrench, title: "Practical Resources", desc: "Tools, templates, frameworks, and research that remove friction and let you focus on what matters, building, validating, and growing.", gradient: "from-coral to-coral-dark" },
   { icon: Route, title: "A Clear Structure", desc: "A two-phase programme with defined milestones, regular check-ins, and a roadmap that keeps you accountable and on track.", gradient: "from-navy to-sky" },
 ];
 

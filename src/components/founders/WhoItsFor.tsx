@@ -2,12 +2,12 @@ import { Container, SectionLabel, SectionHeading } from "@/components/shared/UIE
 import { GraduationCap, Lightbulb, MapPin, Zap, Users, Globe } from "lucide-react";
 
 const criteria = [
-  { icon: GraduationCap, emoji: "🎓", title: "A Graduate", desc: "You have recently graduated or are in your final year. Your degree discipline does not matter — your mindset does." },
-  { icon: Lightbulb, emoji: "💡", title: "Idea-Stage Ready", desc: "You have a business idea — however rough. It does not need to be polished, validated, or fully formed. You just need to believe in it." },
+  { icon: GraduationCap, emoji: "🎓", title: "A Graduate", desc: "You have recently graduated or are in your final year. Your degree discipline does not matter, your mindset does." },
+  { icon: Lightbulb, emoji: "💡", title: "Idea-Stage Ready", desc: "You have a business idea, however rough. It does not need to be polished, validated, or fully formed. You just need to believe in it." },
   { icon: MapPin, emoji: "📍", title: "UK-Based", desc: "The programme operates in the United Kingdom. You should be based here or planning to be during the programme." },
-  { icon: Zap, emoji: "⚡", title: "Entrepreneurially Driven", desc: "You are not looking for a job. You want to build something — and you are willing to commit fully to making it happen." },
+  { icon: Zap, emoji: "⚡", title: "Entrepreneurially Driven", desc: "You are not looking for a job. You want to build something, and you are willing to commit fully to making it happen." },
   { icon: Users, emoji: "👥", title: "Coachable", desc: "You are open to feedback, challenge, and being pushed beyond your comfort zone. You listen as much as you lead." },
-  { icon: Globe, emoji: "🌍", title: "Purpose-Led", desc: "You want to build something that matters beyond the balance sheet — responsible, sustainable, and genuinely valuable to the people it serves." },
+  { icon: Globe, emoji: "🌍", title: "Purpose-Led", desc: "You want to build something that matters beyond the balance sheet, responsible, sustainable, and genuinely valuable to the people it serves." },
 ];
 
 const WhoItsFor = () => (
@@ -17,7 +17,7 @@ const WhoItsFor = () => (
         <SectionLabel>Eligibility</SectionLabel>
         <SectionHeading>Who This Is For</SectionHeading>
         <p className="text-foreground/60 font-body mt-4 max-w-2xl mx-auto">
-          The Internwise Founder Partnership is selective — not because we are exclusive, but because we invest deeply in every founder we back.
+          The Internwise Founder Partnership is selective, not because we are exclusive, but because we invest deeply in every founder we back.
         </p>
       </div>
 

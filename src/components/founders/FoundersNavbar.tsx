@@ -33,7 +33,11 @@ const FoundersNavbar = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/founders" className="flex items-center gap-2">
-            <span className={`font-display font-bold text-lg ${scrolled ? "text-navy" : "text-white"}`}>Internwise</span>
+            <img
+              src="/logo-horizontal.png"
+              alt="Internwise"
+              className={`h-7 transition-all ${scrolled ? "" : "brightness-0 invert"}`}
+            />
             <span className="text-coral font-semibold text-sm font-body">Founder Partnership</span>
           </Link>
 

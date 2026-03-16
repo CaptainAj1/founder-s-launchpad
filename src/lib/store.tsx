@@ -63,7 +63,7 @@ const defaultPosts: BlogPost[] = [
     id: "2",
     title: "Building a Business from Scratch: Lessons from the First 90 Days",
     slug: "building-business-from-scratch-first-90-days",
-    excerpt: "What nobody tells you about the first three months of building a business — and why the messy middle is where the magic happens.",
+    excerpt: "What nobody tells you about the first three months of building a business, and why the messy middle is where the magic happens.",
     content: "<p>The first 90 days of any new venture are simultaneously the most exciting and the most terrifying...</p>",
     coverImage: "",
     status: "published",

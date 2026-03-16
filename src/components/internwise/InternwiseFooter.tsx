@@ -7,8 +7,8 @@ const InternwiseFooter = () => (
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         {/* Brand */}
         <div className="lg:col-span-1">
-          <div className="font-display font-bold text-xl text-white mb-3">Internwise</div>
-          <p className="text-white/50 text-sm font-body">Your Internship Specialist — connecting graduates with employers since 2010.</p>
+          <img src="/logo-horizontal.png" alt="Internwise" className="h-8 brightness-0 invert mb-3" />
+          <p className="text-white/50 text-sm font-body">Your Internship Specialist - connecting graduates with employers since 2010.</p>
         </div>
 
         {/* Platforms */}

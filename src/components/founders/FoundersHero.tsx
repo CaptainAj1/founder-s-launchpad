@@ -11,7 +11,7 @@ const FoundersHero = () => {
       <BlobDecoration color="sky" className="w-80 h-80 bottom-20 right-10 opacity-15 animate-blob animation-delay-2000" />
       <BlobDecoration color="coral" className="w-72 h-72 top-1/2 left-1/2 opacity-10 animate-blob animation-delay-4000" />
 
-      <Container className="relative z-10 text-center pt-24 pb-16">
+      <Container className="relative z-10 text-center pt-24 pb-32">
         <div className="animate-fade-in-up">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-8">
             <span className="w-2 h-2 rounded-full bg-sky animate-pulse-dot" />
@@ -29,7 +29,7 @@ const FoundersHero = () => {
           </h1>
 
           <p className="text-white/80 text-lg lg:text-xl max-w-3xl mx-auto mb-4 font-body">
-            The Internwise Founder Partnership backs ambitious graduates with the structure, mentorship, and resources to build profitable, responsible businesses — from day one.
+            The Internwise Founder Partnership backs ambitious graduates with the structure, mentorship, and resources to build profitable, responsible businesses, from day one.
           </p>
           <p className="text-white/50 text-base lg:text-lg max-w-2xl mx-auto mb-10 font-body">
             No prior experience required. No corporate track record needed. Just a genuine drive to build something that matters.
@@ -67,11 +67,13 @@ const FoundersHero = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-          <span className="text-white/40 text-xs tracking-widest uppercase font-body">Scroll</span>
-          <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent animate-scroll-line origin-top" />
-        </div>
       </Container>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2">
+        <span className="text-white/40 text-xs tracking-widest uppercase font-body">Scroll</span>
+        <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent animate-scroll-line origin-top" />
+      </div>
     </section>
   );
 };

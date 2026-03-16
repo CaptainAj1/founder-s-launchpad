@@ -26,14 +26,14 @@ const HowItWorks = () => (
         <SectionLabel>The Journey</SectionLabel>
         <SectionHeading>How It Works</SectionHeading>
         <p className="text-foreground/60 font-body mt-4 max-w-2xl mx-auto">
-          A 12-month structured programme split into two distinct phases — each designed to build on the last.
+          A 12-month structured programme split into two distinct phases, each designed to build on the last.
         </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 relative">
         {/* Center connector (desktop) */}
         <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-light-gray -translate-x-1/2" />
-        <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-light-gray border-4 border-white z-10 flex items-center justify-center">
+        <div className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-light-gray border-4 border-white z-10 items-center justify-center">
           <div className="w-3 h-3 rounded-full bg-sky" />
         </div>
 

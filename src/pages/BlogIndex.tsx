@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Container, DotGrid } from "@/components/shared/UIElements";
 import { useStore } from "@/lib/store";
 import { FileText } from "lucide-react";
+import { format } from "date-fns";
 import InternwiseFooter from "@/components/internwise/InternwiseFooter";
 import InternwiseNavbar from "@/components/internwise/InternwiseNavbar";
 
@@ -37,7 +38,7 @@ const BlogIndex = () => {
               {published.map((post) => (
                 <Link key={post.id} href={`/blog/${post.slug}`} className="group">
                   <div className="bg-gradient-to-br from-navy to-navy-dark rounded-2xl h-48 mb-4" />
-                  <span className="text-sky text-xs font-semibold font-body">{post.createdAt}</span>
+                  <span className="text-sky text-xs font-semibold font-body">{format(new Date(post.createdAt), "d MMM yyyy")}</span>
                   <h3 className="font-display font-bold text-navy text-lg mt-1 mb-2 line-clamp-2 group-hover:text-sky transition-colors">{post.title}</h3>
                   <p className="text-foreground/60 text-sm font-body line-clamp-3">{post.excerpt}</p>
                   <span className="text-coral text-sm font-semibold font-body mt-3 inline-block">Read more →</span>

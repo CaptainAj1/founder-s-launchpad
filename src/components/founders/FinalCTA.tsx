@@ -38,7 +38,7 @@ const FinalCTA = () => {
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </a>
 
-            <p className="text-white/30 text-xs font-body mt-8">Part of the Internwise group — connecting graduates with opportunity since 2010.</p>
+            <p className="text-white/30 text-xs font-body mt-8">Part of the Internwise group, connecting graduates with opportunity since 2010.</p>
           </div>
         </div>
       </Container>

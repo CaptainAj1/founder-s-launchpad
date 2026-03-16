@@ -16,7 +16,7 @@ const Philosophy = () => (
 
       <div className="grid lg:grid-cols-2 gap-16">
         <div className="space-y-4 font-body text-foreground/70">
-          <p>We believe that the best businesses are built with intention. Profit is not a dirty word — but profit without purpose is a missed opportunity.</p>
+          <p>We believe that the best businesses are built with intention. Profit is not a dirty word, but profit without purpose is a missed opportunity.</p>
           <p>The founders we back are not just building companies. They are building solutions to problems they care about, in industries that matter, for customers who deserve better.</p>
           <p className="font-semibold text-navy">We are not looking for the next unicorn. We are looking for the next generation of responsible business leaders.</p>
           <blockquote className="border-l-4 border-coral pl-6 mt-6 italic text-foreground/60">

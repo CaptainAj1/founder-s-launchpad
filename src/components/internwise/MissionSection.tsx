@@ -17,7 +17,7 @@ const MissionSection = () => (
           <div className="w-16 h-1 bg-coral mt-6" />
         </div>
         <div className="space-y-4 font-body text-foreground/70">
-          <p>Youth unemployment remains one of the most persistent social and economic challenges across Europe. Millions of graduates leave university each year with ambition, skills, and energy — but without a clear path into the working world.</p>
+          <p>Youth unemployment remains one of the most persistent social and economic challenges across Europe. Millions of graduates leave university each year with ambition, skills, and energy but without a clear path into the working world.</p>
           <p>Internwise exists to solve that. Since 2010, we have connected graduates with meaningful internship opportunities, and given employers a simple, effective way to find motivated early-career talent.</p>
           <p className="font-semibold text-navy">We believe every graduate deserves a fair start, and every employer deserves access to the next generation of talent.</p>
         </div>

@@ -32,9 +32,11 @@ const InternwiseNavbar = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <div className={`font-display font-bold text-xl ${scrolled ? "text-navy" : "text-white"}`}>
-              Internwise
-            </div>
+            <img
+              src="/logo-horizontal.png"
+              alt="Internwise"
+              className={`h-8 transition-all ${scrolled ? "" : "brightness-0 invert"}`}
+            />
           </Link>
 
           {/* Desktop Nav */}

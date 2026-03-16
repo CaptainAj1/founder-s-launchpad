@@ -1,9 +1,9 @@
 import { Container, SectionLabel, SectionHeading } from "@/components/shared/UIElements";
 
 const steps = [
-  { num: "01", title: "Submit Your Application", time: "10–15 mins", desc: "Complete our application form with details about yourself, your idea, and your motivations. Be honest — we value authenticity over polish." },
-  { num: "02", title: "Initial Review", time: "Up to 2 weeks", desc: "Our team reviews every application carefully. We assess fit, potential, and mindset — not just the business idea. You will hear back within two weeks." },
-  { num: "03", title: "Discovery Conversation", time: "30 mins", desc: "Shortlisted candidates are invited to a 30-minute conversation with a member of the Internwise team. This is a two-way discussion — come with questions." },
+  { num: "01", title: "Submit Your Application", time: "10–15 mins", desc: "Complete our application form with details about yourself, your idea, and your motivations. Be honest, we value authenticity over polish." },
+  { num: "02", title: "Initial Review", time: "Up to 2 weeks", desc: "Our team reviews every application carefully. We assess fit, potential, and mindset, not just the business idea. You will hear back within two weeks." },
+  { num: "03", title: "Discovery Conversation", time: "30 mins", desc: "Shortlisted candidates are invited to a 30-minute conversation with a member of the Internwise team. This is a two-way discussion, come with questions." },
   { num: "04", title: "Final Decision", time: "1 week", desc: "Successful candidates receive a formal offer to join the next cohort. We provide clear onboarding details and a programme start date." },
 ];
 
@@ -14,7 +14,7 @@ const SelectionProcess = () => (
         <SectionLabel>Applying</SectionLabel>
         <SectionHeading>Selection Process</SectionHeading>
         <p className="text-foreground/60 font-body mt-4 max-w-2xl mx-auto">
-          We keep our process straightforward and human. No assessments, no group exercises — just real conversations about real ideas.
+          We keep our process straightforward and human. No assessments, no group exercises, just real conversations about real ideas.
         </p>
       </div>
 

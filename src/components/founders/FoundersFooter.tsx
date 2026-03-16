@@ -15,15 +15,10 @@ const FoundersFooter = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center">
-                <svg className="w-5 h-5 text-sky" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0114 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L10 6.477V16h2a1 1 0 110 2H8a1 1 0 110-2h2V6.477L7.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 016 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L10 4.323V3a1 1 0 011-1z" /></svg>
-              </div>
-              <div>
-                <span className="font-display font-bold text-white">Internwise</span>
-                <span className="text-coral text-sm font-body ml-1">Founder Partnership</span>
-              </div>
+              <img src="/logo-horizontal.png" alt="Internwise" className="h-8 brightness-0 invert" />
+              <span className="text-coral text-sm font-body">Founder Partnership</span>
             </div>
-            <p className="text-white/50 text-sm font-body mb-4 max-w-sm">Backing ambitious graduates to build profitable, responsible businesses — from idea to reality.</p>
+            <p className="text-white/50 text-sm font-body mb-4 max-w-sm">Backing ambitious graduates to build profitable, responsible businesses, from idea to reality.</p>
             <a
               href={settings.applicationFormUrl}
               target={settings.applicationFormUrl.startsWith("http") ? "_blank" : undefined}

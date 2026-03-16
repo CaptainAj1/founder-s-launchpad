@@ -3,6 +3,7 @@ import { Container } from "@/components/shared/UIElements";
 import { useStore } from "@/lib/store";
 import InternwiseNavbar from "@/components/internwise/InternwiseNavbar";
 import InternwiseFooter from "@/components/internwise/InternwiseFooter";
+import { format } from "date-fns";
 
 const BlogPost = ({ params }: { params: { slug: string } }) => {
   const { posts } = useStore();
@@ -30,7 +31,7 @@ const BlogPost = ({ params }: { params: { slug: string } }) => {
       <Container className="-mt-20 relative z-10 pb-24">
         <div className="bg-white rounded-2xl p-8 lg:p-12 max-w-3xl mx-auto shadow-xl">
           <Link href="/blog" className="text-sky text-sm font-semibold font-body mb-6 inline-block">← Back to Blog</Link>
-          <span className="block text-sky text-xs font-semibold tracking-widest uppercase font-body mb-3">{post.createdAt}</span>
+          <span className="block text-sky text-xs font-semibold tracking-widest uppercase font-body mb-3">{format(new Date(post.createdAt), "d MMMM yyyy")}</span>
           <h1 className="font-display text-3xl lg:text-4xl font-bold text-navy mb-6">{post.title}</h1>
           <div className="border-l-4 border-coral pl-6 mb-8">
             <p className="text-foreground/60 font-body italic">{post.excerpt}</p>

@@ -28,7 +28,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       {/* Sidebar */}
       <aside className={`fixed inset-y-0 left-0 z-40 w-64 bg-navy transform transition-transform lg:translate-x-0 ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="p-6">
-          <div className="font-display font-bold text-white text-lg">Internwise</div>
+          <img src="/logo-horizontal.png" alt="Internwise" className="h-7 brightness-0 invert mb-1" />
           <div className="text-coral text-xs font-body">Admin Panel</div>
         </div>
         <nav className="px-3 space-y-1">
@@ -40,7 +40,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
           ))}
         </nav>
         <div className="absolute bottom-6 left-0 right-0 px-6">
-          <a href="/" target="_blank" className="flex items-center gap-2 text-white/40 text-xs font-body hover:text-white/60"><ExternalLink className="w-3 h-3" />View site</a>
+          <a href="/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white/40 text-xs font-body hover:text-white/60"><ExternalLink className="w-3 h-3" />View site</a>
         </div>
       </aside>
 

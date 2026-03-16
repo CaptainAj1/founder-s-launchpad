@@ -22,7 +22,7 @@ const ContactSection = () => {
             <SectionLabel>Get in Touch</SectionLabel>
             <SectionHeading light>Let&apos;s Talk</SectionHeading>
             <p className="text-white/60 font-body mt-6 mb-10">
-              Whether you are a graduate looking for your first opportunity, an employer wanting to reach fresh talent, or a university exploring partnerships — we would love to hear from you.
+              Whether you are a graduate looking for your first opportunity, an employer wanting to reach fresh talent, or a university exploring partnerships, we would love to hear from you.
             </p>
 
             <div className="space-y-6">
